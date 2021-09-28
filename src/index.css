@@ -71,3 +71,6 @@ section p {
   width: 30%;
   font: 3em 'Josefin Slab', serif;
 }
+#about div {
+  flex-flow: row-reverse;
+}
