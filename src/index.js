@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Services from './components/Services';
 import About from './components/About';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Header />
     <Services />
     <About />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
